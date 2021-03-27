@@ -7,4 +7,4 @@ layout: default
 
 # The explanation for what my thesis is goes here
 
-[Click here to see the team that the website recommends](/team)
+[Click here to see the team that the website recommends](/Thesis-Website/team)
