@@ -36,10 +36,49 @@
       {% endif %}
     </header>
     <main id="content" class="main-content" role="main">
+      <h1 id="settings-page">Settings page</h1>
+      <p>
+        If you want to adjust how the algorithm chooses a team here is where you do it
+      </p>
+      <h2>A perfect team would have these Personality traits</h2>
 
-    
 
+      <p>
+        Below are the recommended values by the Algorithm's creator
+      </p>
+      <ul>
+      {% for personality_trait in site.data.perfect_personality %}
+        <li>
+          <label for="customRange" class="form-label">{{personality_trait.name}}</label>
+          <input type="range" class="form-range" id="customRange" min = "0" max = "10" step = "1" value = {{personality_trait.value}}>
+        </li>
+      {% endfor %}
+      </ul>
+
+
+      <h2>A perfect team would have these Work Ethic traits</h2>
+
+      <p>
+        Below are the recommended values by the Algorithm's creator
+      </p>
+      <ul>
+      {% for work_ethic_trait in site.data.perfect_work_ethic %}
+        <li>
+          <label for="customRange" class="form-label">{{work_ethic_trait.name}}</label>
+          <input type="range" class="form-range" id="customRange" min = "1" max = "5" step = ".5" value = {{work_ethic_trait.value}}>
+        </li>
+      {% endfor %}
+      </ul>
+
+
+
+
+      <!-- Back button -->
       {{ content }}
+
+
+
+
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
