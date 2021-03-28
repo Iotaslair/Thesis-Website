@@ -21,8 +21,8 @@
 title: An Automated approach to Software Engineering Team Creation
 email: william.pembleton17@ncf.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the presentation website for "An Automated approach to Software Engineering Team Creation". It is a
-  rough guide for what a manager will see when utilizing the software.
+  This website is for the thesis "An Automated approach to Software Engineering Team Creation" created by. It is a
+  rough guide for what a manager will see when utilizing the software made during the thesis.
 baseurl: "/Thesis-Website" # the subpath of your site, e.g. /blog
 url: "https://iotaslair.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
