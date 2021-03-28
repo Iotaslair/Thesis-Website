@@ -3,4 +3,4 @@ layout: settings
 ---
 
 
-[back](./)
+[Back](./)

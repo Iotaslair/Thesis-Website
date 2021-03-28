@@ -9,4 +9,4 @@ Recommended team
 
 ![Recommended team](/Teams.png)
 
-[back](./)
+[Back](./)
