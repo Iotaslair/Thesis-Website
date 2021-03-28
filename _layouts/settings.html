@@ -57,7 +57,6 @@
 
 
       <h2>A perfect team would have these Work Ethic traits</h2>
-
       <p>
         Below are the recommended values by the Algorithm's creator
       </p>
@@ -70,8 +69,29 @@
       {% endfor %}
       </ul>
 
+      <!-- % of Extroverts -->
+      <h2>A perfect team would x% of Extroverts</h2>
+      <label for="customRange" class="form-label">Minimum range</label>
+      <input type="range" class="form-range" id="customRange" value = "20">
+      <br>
+      <label for="customRange" class="form-label">Maximum range</label>
+      <input type="range" class="form-range" id="customRange" value = "40">
+
+      <!-- Everyone be higher than 6 for Conscientiousness -->
+      <h2>A perfect team would everyone be higher than x for Conscientiousness</h2>
+      <label for="customRange" class="form-label">Conscientiousness</label>
+      <input type="range" class="form-range" id="customRange" min = "0" max = "10" step = "1" value = "6">
+
+      <!-- Everyone be higher than 6 for Conscientiousness -->
+      <h2>A perfect team would everyone be lower than x for Neuroticism</h2>
+      <label for="customRange" class="form-label">Neuroticism</label>
+      <input type="range" class="form-range" id="customRange" min = "0" max = "10" step = "1" value = "4">
 
 
+      <!-- Everyone be lower than 3 for Self Reliance -->
+      <h2>A perfect team would everyone be lower than x for Self Reliance</h2>
+      <label for="customRange" class="form-label">Self Reliance</label>
+      <input type="range" class="form-range" id="customRange" min = "1" max = "5" step = ".5" value = "3">
 
       <!-- Back button -->
       {{ content }}
