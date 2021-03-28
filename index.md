@@ -9,4 +9,4 @@ layout: default
 
 [Click here to see the team that the website recommends](./team)
 
-[Click here to see Settings for the recommendations](./settings)
+[Click here to see settings for the recommendations](./settings)
