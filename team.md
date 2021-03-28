@@ -6,6 +6,6 @@ layout: default
 # Welcome to the recommended team page
 
 
-![Recommended team](/Teams.png)
+![Recommended team](/teams.png)
 
 [Back](./)
